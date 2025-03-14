@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>The Letter R.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>The Letter R</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-0.1259584348787213,51.5052743780053,0 -0.1241999655140003,51.50613820008788,0 -0.1354938974658104,51.51304837079574,0 -0.1333961070095246,51.51311287074785,0 -0.1312318917435362,51.51328906582472,0 -0.1290515150716742,51.51372952903688,0 -0.1268635233054571,51.51424621183367,0 -0.1250378644759842,51.51564572022044,0 -0.1242031794477894,51.51745641657384,0 -0.1233011758796021,51.51931375241239,0 -0.1233044638133074,51.52116378261744,0 -0.1248533336448987,51.52259380098962,0 -0.1266249586092494,51.52345075340056,0 -0.1287284703072855,51.52388877406759,0 -0.1313974786374827,51.52402864812137,0 -0.1339548756507913,51.52397120270565,0 -0.1357446526124273,51.52339039402465,0 -0.1378180436930831,51.52320538673995,0 -0.138284596704108,51.52220796280434,0 -0.1391856731398944,51.50622724999162,0 -0.1369339773584244,51.50624902239542,0 -0.1368687908108845,51.51308024393727,0 -0.1259584348787213,51.5052743780053,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>
